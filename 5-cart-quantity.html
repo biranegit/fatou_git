@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quantite panier</title>
+</head>
+<body>
+    <button onclick="console.log(`Quantite panier:${quantitePanier}`);">show quantite</button>
+    <button onclick="
+    quantitePanier = quantitePanier + 1;
+    console.log(`Quantite Panier:${quantitePanier}`);
+    ">Add to cart</button>
+    <button onclick="
+    quantitePanier = quantitePanier + 2
+    console.log(`Quantite Panier:${quantitePanier}`);
+    ">+2</button>
+
+    <button onclick="
+    quantitePanier = quantitePanier +3;
+    console.log(`Quantite Panier:${quantitePanier}`);
+    ">+3</button>
+    
+    <button onclick="
+    quantitePanier = quantitePanier +4;
+    console.log(`Quantite Panier:${quantitePanier}`);
+    ">+4</button>
+
+<button onclick="
+quantitePanier = quantitePanier +5;
+console.log(`Quantite Panier:${quantitePanier}`);
+">+5</button>
+
+    <button onclick="
+    quantitePanier =0
+    console.log(`Quantite Panier:${quantitePanier}`);
+    ">reset cart</button>
+
+    <script>
+        let quantitePanier = 0;
+    </script>
+    
+</body>
+</html>

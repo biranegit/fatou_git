@@ -1,0 +1,53 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+             // Récupérer l'heure actuelle
+     let heure = new Date().getHours();
+
+     // Afficher le message approprié en fonction de l'heure
+     if (heure >= 6 && heure < 12) {
+         console.log("Bonjour !");
+
+     } 
+     else if (heure >= 13 && heure < 18) {
+         console.log("Bon après-midi !");
+     } 
+     else {
+         console.log("Bonne nuit !");
+     }
+     // pour changer la valeur de l'heure pour afficher des messages differents
+    heure =4;
+    if(heure >=6 && heure > 12) {
+        console.log(`Bonjour fatou`);
+    }
+    else if(heure >= 13 && heure < 18) {
+        console.log(`Bon apres-midi fatou`);
+    }
+    else{
+        console.log(`Bonne nuit fatou`);
+    }
+//creer une variable age et enregistrer l'age d'une personne
+    let age = 10;
+// verifier si une personne a driot à une reduction
+    if (age <= 6 && age >= 65) {
+        console.log("Remise");
+    }    
+    else {
+        console.log("Pas de remise");
+    }
+//indiquons si c'est un jour de ferié ou non
+    const jourferie = true;
+//Mettons à jour le code de 6j
+if (age <= 6 && age >= 65) {
+        console.log("Remise");
+    }    
+    else {
+        console.log("Pas de remise");
+    }      
+    </script>
+</body>
+</html>
